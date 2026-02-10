@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0 0 2px;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color:#606060;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.container__left {
+    width: 280px;
+    margin-right: 50px;
+}
+
+.container__info {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000080;
+    border-radius: 10px;
+}
+
+.common {
+    color: #000080;
+}
+
+.container__info h3 {
+    color: #000080;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #000080;
+    margin-bottom: 8px;
+}
+
+.container__info li {
+    margin-left: 18px;
+}
+
+.container__info-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container__info-fields h4 {
+    margin-bottom: 5px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.person {
+    justify-self: center;
+    margin-bottom: 5px;
+}
+
+hr {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-column {
+    text-align: left;
+    vertical-align: top;
+}
+
+.second-column, .third-column {
+    padding-left:15px;
+}
+
+.table {
+    border: none;
+}
+
+.education__years, .work-term {
+    color: #606060;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
