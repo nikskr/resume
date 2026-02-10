@@ -14,6 +14,18 @@ a:hover {
     color:#606060;
 }
 
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,6 +41,10 @@ a:hover {
 }
 
 .container__right {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    min-width: 0; 
 }
 
 .container__info {
@@ -69,11 +85,19 @@ a:hover {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
+    border: 2px solid #000080;
+    border-radius: 100px;
 }
 
 .person {
     justify-self: center;
+    text-align: center;
     margin-bottom: 5px;
+}
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;  
 }
 
 hr {
@@ -87,6 +111,10 @@ hr {
     align-items: center;
 }
 
+.language-item progress {
+    max-width: 50%;
+}
+
 .first-column {
     text-align: left;
     vertical-align: top;
@@ -98,6 +126,7 @@ hr {
 
 .table {
     border: none;
+    width: 100%;
 }
 
 .education__years, .work-term {
@@ -105,4 +134,17 @@ hr {
     text-align: center;
     font-weight: bold;
     margin: 10px 0 5px;
-}   
+} 
+
+@media (max-width: 768px) {
+    .container__left {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
