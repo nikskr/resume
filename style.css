@@ -134,7 +134,11 @@ hr {
     text-align: center;
     font-weight: bold;
     margin: 10px 0 5px;
-} 
+}
+
+.pet-projects-item {
+    line-height: 3;
+}
 
 @media (max-width: 768px) {
     .container__left {
