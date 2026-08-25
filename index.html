@@ -1,193 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css">
-    <title>Resume</title>
-</head>
-<body>
-    <div class="container">
-        <div class="container__left">
-            <div class="container__info person">
-                <img class="photo" src="images/photo.jpg" alt="Photo">
-                <h3 class="name">Nikita Skrabnevsky</h3>
-            </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="icon"
+			href="favicon.svg"
+			type="image/svg+xml" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+		<title>Resume</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container__left">
+				<div class="container__info person">
+					<img
+						class="photo"
+						src="images/photo.jpg"
+						alt="Photo" />
+					<h3 class="name">Nikita Skrabnevsky</h3>
+				</div>
 
-            <hr />
+				<hr />
 
-            <div class="container__info common">
-                <p><b>Age</b>: 24</p>
-                <p><b>Position</b>: JavaScript Developer</p>
-                <p><b>Salary</b>: 1000$</p>
-            </div>
+				<div class="container__info common">
+					<p><b>Age</b>: 25</p>
+					<p><b>Position</b>: FrontEnd Developer</p>
+				</div>
 
-            <div  class="container__info">
-                <h3>Contacts</h3>
-                <div class="contact-item">
-                    <img class="icon" src="images/phone.png" alt="phone-icon">
-                    <phone>+375292923779</phone>
-                </div>
-                <div class="contact-item">
-                    <img class="icon" src="images/mail.png" alt="email-icon">
-                    <email>nskrabnevsky@gmail.com</email>
-                </div>
-                <div class="contact-item">
-                    <a class="icon-link" href="https://t.me/mask1331"><img class="icon" src="images/tg.png" alt="tg-icon"></a>
-                    <a href="https://t.me/mask1331">Telegram</a>
-                </div>
-            </div>
+				<div class="container__info">
+					<h3>Contacts</h3>
+					<div class="contact-item">
+						<img
+							class="icon"
+							src="images/phone.png"
+							alt="phone-icon" />
+						<phone>+375292923779</phone>
+					</div>
+					<div class="contact-item">
+						<img
+							class="icon"
+							src="images/mail.png"
+							alt="email-icon" />
+						<email>nskrabnevsky@gmail.com</email>
+					</div>
+					<div class="contact-item">
+						<a
+							class="icon-link"
+							href="https://t.me/mask1331"
+							><img
+								class="icon"
+								src="images/tg.png"
+								alt="tg-icon"
+						/></a>
+						<a href="https://t.me/mask1331">Telegram</a>
+					</div>
+				</div>
 
-            <div class="container__info">
-                <h3>Languages</h3>
-                <div>
-                    <div class="language-item">
-                        <div>Russian</div>
-                        <progress max="100" value="100"></progress>
-                    </div>
-                    <div class="language-item">
-                        <div>Belarusian</div>
-                        <progress max="100" value="80"></progress>
-                    </div>
-                    <div class="language-item">
-                        <div>English</div>
-                        <progress max="100" value="70"></progress>
-                    </div>
-                </div>
-            </div>
+				<div class="container__info">
+					<h3>Languages</h3>
+					<div>
+						<div class="language-item">
+							<div>Russian</div>
+							<progress
+								max="100"
+								value="100"></progress>
+						</div>
+						<div class="language-item">
+							<div>Belarusian</div>
+							<progress
+								max="100"
+								value="80"></progress>
+						</div>
+						<div class="language-item">
+							<div>English</div>
+							<progress
+								max="100"
+								value="70"></progress>
+						</div>
+					</div>
+				</div>
 
-            <div class="container__info">
-                <h3>Soft skills</h3>
-                <ul>
-                    <li>Quick learning ability</li>
-                    <li>High adaptability to changes</li>
-                    <li>Ability to effectively solve problems</li>
-                    <li>Teamwork</li>
-                    <li>Time management</li>
-                </ul>
-            </div>
-            <div class="container__info">
-                <h3>Hard skills</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>HTML, CSS, SCSS</li>
-                    <li>Bootstrap, Tailwind</li>
-                    <li>JavaScript, TypeScript</li>
-                    <li>React, React Router</li>
-                    <li>NodeJS, Express, NestJS</li>
-                    <li>PostgreSQL</li>
-                    <li>Postman, REST API</li>
-                </ul>
-            </div>
-        </div>
-        <div class="container__right">
-            <div class="container__info">
-                <h3>Professional fields</h3>
-                <div class="container__info-fields">
-                    <div>
-                        <h4>FrontEnd</h4>
-                        <ul>
-                            <li>React</li>
-                            <li>HTML, CSS, SCSS</li>
-                            <li>Bootstrap, Tailwind</li>
-                            <li>JavaScript, TypeScript</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>BackEnd</h4>
-                        <ul>
-                            <li>NodeJS, Express, NestJS</li>
-                            <li>PostgreSQL</li>
-                            <li>Postman, REST API</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>Other</h4>
-                        <ul>
-                            <li>Git</li>
-                            <li>Docker</li>
-                            <li>C++, Java, Apex</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container__info">
-                <h3>Work experience</h3>
-                <div class="work-term">June 2024 - Present time</div>
-                <table>
-                    <tr>
-                        <td class="first-column">Organization:</td>
-                        <td class="second-column">Planar</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Position:</td>
-                        <td class="second-column">Design Engineer</td>
-                    </tr>
-                </table>
-                <div>Responsibilities:</div>
-                <ul>
-                    <li>Microcontroller programming (Microchip Studio, C++, Proteus)</li>
-                    <li>Development of projects using CAD (SolidWorks, Autocad)</li>
-                    <li>Preparation of technical documentation</li>
-                    <li>Testing and adjusting the assembled devices</li>
-                </ul>
-            </div>
-            <div class="container__info education">
-                <h3>Education</h3>
-                <div class="education__years">2018 - 2022</div>
-                <table>
-                    <tr>
-                        <td class="first-column">Higher:</td>
-                        <td class="second-column">Belarusian State University of Informatics and Radioelectronics</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Speciality:</td>
-                        <td class="second-column">Radio Engineering (Programmable Electronic Systems)</td>
-                    </tr>
-                </table>
+				<div class="container__info">
+					<h3>Soft skills</h3>
+					<ul>
+						<li>Quick learning ability</li>
+						<li>High adaptability to changes</li>
+						<li>Ability to effectively solve problems</li>
+						<li>Teamwork</li>
+						<li>Time management</li>
+					</ul>
+				</div>
+				<div class="container__info">
+					<h3>Hard skills</h3>
+					<ul>
+						<li>Git</li>
+						<li>HTML, CSS, SCSS</li>
+						<li>Bootstrap, Tailwind</li>
+						<li>JavaScript, TypeScript</li>
+						<li>React, NextJS</li>
+						<li>Redux, RTK Query, Zustand, MobX</li>
+						<li>NodeJS, Express, NestJS</li>
+						<li>PostgreSQL</li>
+						<li>Postman, REST API</li>
+						<li>Salesforce LWC, Apex, Triggers, SOQL, SOSL</li>
+					</ul>
+				</div>
+			</div>
+			<div class="container__right">
+				<div class="container__info">
+					<h3>Professional fields</h3>
+					<div class="container__info-fields">
+						<div>
+							<h4>FrontEnd</h4>
+							<ul>
+								<li>UI Design</li>
+								<li>Stylezation</li>
+								<li>Bootstrap, Tailwind</li>
+								<li>JavaScript, TypeScript</li>
+								<li>Salesforce LWC</li>
+							</ul>
+						</div>
+						<div>
+							<h4>BackEnd</h4>
+							<ul>
+								<li>NodeJS, Express, NestJS</li>
+								<li>PostgreSQL</li>
+								<li>Postman, REST API</li>
+								<li>Salesforce SOQL, SOSL</li>
+							</ul>
+						</div>
+						<div>
+							<h4>Other</h4>
+							<ul>
+								<li>Git</li>
+								<li>Docker</li>
+								<li>C++, Java, Apex</li>
+								<li>Salesforce Governor Limits</li>
+								<li>Salesforce Data Security</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="container__info">
+					<h3>Work experience</h3>
+					<div class="work-term">June 2024 - Present time</div>
+					<table>
+						<tr>
+							<td class="first-column">Organization:</td>
+							<td class="second-column">Planar</td>
+						</tr>
+						<tr>
+							<td class="first-column">Position:</td>
+							<td class="second-column">Design Engineer</td>
+						</tr>
+					</table>
+					<div>Responsibilities:</div>
+					<ul>
+						<li>
+							Microcontroller programming (Microchip Studio, C++,
+							Proteus)
+						</li>
+						<li>
+							Development of projects using CAD (SolidWorks,
+							Autocad)
+						</li>
+						<li>Preparation of technical documentation</li>
+						<li>Testing and adjusting the assembled devices</li>
+					</ul>
+				</div>
+				<div class="container__info education">
+					<h3>Education</h3>
+					<div class="education__years">2018 - 2022</div>
+					<table>
+						<tr>
+							<td class="first-column">Higher:</td>
+							<td class="second-column">
+								Belarusian State University of Informatics and
+								Radioelectronics
+							</td>
+						</tr>
+						<tr>
+							<td class="first-column">Speciality:</td>
+							<td class="second-column">
+								Radio Engineering (Programmable Electronic
+								Systems)
+							</td>
+						</tr>
+					</table>
 
-                <div class="education__years">2022 - 2024</div>
-                <table>
-                    <tr>
-                        <td class="first-column">Higher:</td>
-                        <td class="second-column">Belarusian State University of Informatics and Radioelectronics</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Speciality:</td>
-                        <td class="second-column">Radio Systems and Radio Technologies</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="container__info">
-                <h3>Pet projects</h3>
-                <table>
-                    <tr>
-                        <td class="first-column pet-projects-item">Weather React App with Redux RTK</td>
-                        <td class="second-column"><a href="https://nikskr.github.io/weather-frontend-app/">Result</a></td>
-                        <td class="third-column"><a href="https://github.com/nikskr/weather-frontend-app">Code</a></td>
-                    </tr>
-                    <tr>
-                        <td class="first-column pet-projects-item">Layout of the main page for a VPN service</td>
-                        <td class="second-column"><a href="https://nikskr.github.io/LaslesVPN/">Result</a></td>
-                        <td class="third-column"><a href="https://github.com/nikskr/LaslesVPN/tree/main/src">Code</a></td>
-                    </tr>
-                    <tr>
-                        <td class="first-column pet-projects-item">Adaptive layout of an online store website with a product page</td>
-                        <td class="second-column"><a href="https://nikskr.github.io/abito-app/">Result</a></td>
-                        <td class="third-column"><a href="https://github.com/nikskr/abito-app">Code</a></td>
-                    </tr>
-                    <tr>
-                        <td class="first-column pet-projects-item">Posts React App where base features of React are implemented</td>
-                        <td class="second-column"><a href="https://nikskr.github.io/posts-react-app/">Result</a></td>
-                        <td class="third-column"><a href="https://github.com/nikskr/posts-react-app">Code</a></td>
-                    </tr> 
-                </table>
-            </div>
-        </div>
-    </div>
-</body>
+					<div class="education__years">2022 - 2024</div>
+					<table>
+						<tr>
+							<td class="first-column">Higher:</td>
+							<td class="second-column">
+								Belarusian State University of Informatics and
+								Radioelectronics
+							</td>
+						</tr>
+						<tr>
+							<td class="first-column">Speciality:</td>
+							<td class="second-column">
+								Radio Systems and Radio Technologies
+							</td>
+						</tr>
+					</table>
+
+					<div class="education__years">
+						December 2025 - July 2026
+					</div>
+					<table>
+						<tr>
+							<td class="first-column">Internship:</td>
+							<td class="second-column">Success (scr.by)</td>
+						</tr>
+						<tr>
+							<td class="first-column">Speciality:</td>
+							<td class="second-column">Salesforce Developer</td>
+						</tr>
+					</table>
+				</div>
+				<div class="container__info">
+					<h3>Pet projects</h3>
+					<table>
+						<tr>
+							<td class="first-column pet-projects-item">
+								Weather React App using Redux RTK
+							</td>
+							<td class="second-column">
+								<a
+									href="https://nikskr.github.io/weather-frontend-app/"
+									>Result</a
+								>
+							</td>
+							<td class="third-column">
+								<a
+									href="https://github.com/nikskr/weather-frontend-app"
+									>Code</a
+								>
+							</td>
+						</tr>
+						<tr>
+							<td class="first-column pet-projects-item">
+								Layout of the main page for a VPN service
+							</td>
+							<td class="second-column">
+								<a href="https://nikskr.github.io/LaslesVPN/"
+									>Result</a
+								>
+							</td>
+							<td class="third-column">
+								<a
+									href="https://github.com/nikskr/LaslesVPN/tree/main/src"
+									>Code</a
+								>
+							</td>
+						</tr>
+						<tr>
+							<td class="first-column pet-projects-item">
+								Adaptive layout of an online store website with
+								a product page
+							</td>
+							<td class="second-column">
+								<a href="https://nikskr.github.io/abito-app/"
+									>Result</a
+								>
+							</td>
+							<td class="third-column">
+								<a href="https://github.com/nikskr/abito-app"
+									>Code</a
+								>
+							</td>
+						</tr>
+						<tr>
+							<td class="first-column pet-projects-item">
+								Posts React App where base features of React are
+								implemented
+							</td>
+							<td class="second-column">
+								<a
+									href="https://nikskr.github.io/posts-react-app/"
+									>Result</a
+								>
+							</td>
+							<td class="third-column">
+								<a
+									href="https://github.com/nikskr/posts-react-app"
+									>Code</a
+								>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
